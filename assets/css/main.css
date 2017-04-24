@@ -8,11 +8,25 @@
 */
 
 /* Custom Color Pallet
-rgba(0, 78, 125, 1);
+rgba(0, 50, 80, 1);
+rgba(0, 64, 103, 1);
+rgba(0, 78, 125, 1);;
 rgba(0, 100, 161, 1);
 rgba(0, 121, 196, 1);
 rgba(46, 145, 206, 1);
 rgba(92, 169, 217, 1)
+rgba(92, 142, 172, 1);
+rgba(46, 110, 148, 1);
+
+#003250
+#004067
+#004E7D
+#0064A1
+#0079C4
+#2E6E94
+#5C8EAC
+#5CA9D9
+#8BC2E4
 */
 
 /* Reset */
@@ -1708,7 +1722,7 @@ rgba(92, 169, 217, 1)
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px rgba(46, 110, 148, 1);
 		}
 
 	.select-wrapper {
@@ -1819,7 +1833,7 @@ rgba(92, 169, 217, 1)
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px rgba(46, 110, 148, 1);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1930,15 +1944,15 @@ rgba(92, 169, 217, 1)
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: rgba(0,121, 196, 1);
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: rgba(46, 145, 206, 1);
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: rgba(92,169,217, 1);
 		}
 
 /* Image */
@@ -2437,7 +2451,7 @@ rgba(92, 169, 217, 1)
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: rgba(92, 169, 217, 1);
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2660,7 +2674,7 @@ rgba(92, 169, 217, 1)
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: rgba(46, 145, 206, 1);
 			color: #c7ebe8;
 		}
 
@@ -2725,7 +2739,7 @@ rgba(92, 169, 217, 1)
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: rgba(0, 100, 161, 1);
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2818,7 +2832,7 @@ rgba(92, 169, 217, 1)
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: rgba(0,78,125,1);
 			color: #d3d4e4;
 		}
 
@@ -2883,7 +2897,7 @@ rgba(92, 169, 217, 1)
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #505393;
+				color: rgba(0,78,125,1);
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3179,7 +3193,7 @@ rgba(92, 169, 217, 1)
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: rgba(0,64, 103,1);
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3803,7 +3817,7 @@ rgba(92, 169, 217, 1)
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: center right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
